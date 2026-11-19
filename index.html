@@ -3,78 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IZAX | Logo Design, Website & Branding in Sri Lanka</title>
-<meta name="description" content="IZAX - Professional Logo Design, Website Development, Branding. Order in 30 seconds. Available in English, Tamil, Sinhala, Hindi.">
-<meta property="og:title" content="IZAX - Design Your Business">
-<meta property="og:description" content="Logo Rs. 4,999 | Website Rs. 14,999 | Instagram Pack Rs. 2,999">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+<title>IZAX. Design. Beyond.</title>
+<meta name="description" content="IZAX - Logo Design, Website, Branding. Apple-level premium design for Sri Lanka.">
+<meta property="og:title" content="IZAX. Design. Beyond.">
+<meta property="og:description" content="Logo Rs. 4,999 | Website Rs. 14,999 | Order in 30 Seconds">
+<meta property="og:image" content="https://alexalfa1333-svg.github.io/iIZAX/cover.jpg">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar">
-  <div class="logo">IZAX<span>.</span></div>
-  <nav>
-    <a href="#services">Services</a>
-    <a href="#work">Work</a>
-    <a href="#order">Order</a>
-  </nav>
-  <a class="cta" href="#order">Order Now</a>
+<header class="apple-nav">
+  <div class="nav-inner"><span class="nav-logo">IZAX.</span><nav><a href="#products">Products</a><a href="#why">Why IZAX</a><a href="#order">Order</a></nav><a class="nav-order" href="#order">Order</a></div>
 </header>
 
-<main class="container">
-  <section class="hero">
-    <p class="pill">SRI LANKA - VAVUNIYA | 24/7 ONLINE</p>
-    <h1>We Design Brands<br>That People Remember.</h1>
-    <p class="sub">Logo Design. Website. Instagram Branding. Professional. Fast. Affordable.<br>English by default. We reply in your language.</p>
-    <div class="hero-btns">
-      <a href="#order" class="btn-primary">Start Your Order</a>
-      <a href="#services" class="btn-ghost">View Services</a>
-    </div>
-    <div class="stats">
-      <div><b>100+</b><span>Orders Done</span></div>
-      <div><b>24h</b><span>Logo Delivery</span></div>
-      <div><b>4+</b><span>Languages</span></div>
+<main>
+  <section class="hero-apple">
+    <p class="eyebrow">IZAX PRO</p>
+    <h1>Design.<br>Beyond Imagination.</h1>
+    <p class="hero-sub">Logo. Website. Branding. Crafted to Apple-level perfection.<br>From Rs. 4,999. Delivered in 24 Hours.</p>
+    <div class="hero-btns"><a href="#order" class="btn-blue">Order Now ></a><a href="#products" class="btn-link">Learn More ></a></div>
+    <div class="hero-visual"><div class="product-card"><span>IZAX</span><p>YOUR LOGO HERE</p></div></div>
+  </section>
+
+  <section id="products" class="products">
+    <h2 class="section-title">Which IZAX is right for you?</h2>
+    <div class="product-grid">
+      <div class="p-card" data-aos="fade-up"><p class="p-eyebrow">LOGO</p><h3>IZAX Logo Pro</h3><p class="p-desc">A logo that people remember. Premium. Unique.</p><p class="p-price">Rs. 4,999</p><button onclick="orderService('Logo Design')">Buy ></button><p class="p-small">Delivery: 24 Hours</p></div>
+      <div class="p-card dark" data-aos="fade-up"><p class="p-eyebrow">WEBSITE</p><h3>IZAX Web Pro</h3><p class="p-desc">Your business, online. Fast. Beautiful. Powerful.</p><p class="p-price">Rs. 14,999</p><button onclick="orderService('Website')">Buy ></button><p class="p-small">Delivery: 2-3 Days</p></div>
+      <div class="p-card" data-aos="fade-up"><p class="p-eyebrow">SOCIAL</p><h3>IZAX Social Pack</h3><p class="p-desc">10 posts that make your Instagram look premium.</p><p class="p-price">Rs. 2,999</p><button onclick="orderService('Instagram Pack')">Buy ></button><p class="p-small">Delivery: 48 Hours</p></div>
+      <div class="p-card dark" data-aos="fade-up"><p class="p-eyebrow">BUNDLE</p><h3>IZAX Starter Pro</h3><p class="p-desc">Logo + Website Basic + 5 Posts. All in one.</p><p class="p-price">Rs. 9,999</p><button onclick="orderService('Starter Pack')">Buy ></button><p class="p-small">Delivery: 3 Days</p></div>
     </div>
   </section>
 
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <div class="grid">
-      <div class="card"><i class="fa-solid fa-pen-nib"></i><h3>Logo Design</h3><p>Professional, unique logo for your business.</p><b>Rs. 4,999</b><span>Delivery: 24 Hours</span><button onclick="orderService('Logo Design')">Order Logo</button></div>
-      <div class="card"><i class="fa-solid fa-globe"></i><h3>Website Development</h3><p>Complete business website with order form.</p><b>Rs. 14,999</b><span>Delivery: 2-3 Days</span><button onclick="orderService('Website')">Order Website</button></div>
-      <div class="card"><i class="fa-brands fa-instagram"></i><h3>Instagram Pack</h3><p>10 professional posts for your page.</p><b>Rs. 2,999</b><span>Delivery: 48 Hours</span><button onclick="orderService('Instagram Pack')">Order Pack</button></div>
-      <div class="card"><i class="fa-solid fa-rocket"></i><h3>Starter Pack</h3><p>Logo + Basic Website + 5 Posts.</p><b>Rs. 9,999</b><span>Delivery: 3 Days</span><button onclick="orderService('Starter Pack')">Order Pack</button></div>
-    </div>
-  </section>
-
-  <section id="work" class="work">
+  <section id="why" class="why-apple">
     <h2>Why IZAX?</h2>
-    <div class="why">
-      <div><b>01</b><h3>Fast Delivery</h3><p>Logo in 24 hours. No waiting.</p></div>
-      <div><b>02</b><h3>Professional Design</h3><p>Clean, modern, premium quality.</p></div>
-      <div><b>03</b><h3>Your Language</h3><p>English, Tamil, Sinhala, Hindi. We speak your language.</p></div>
+    <div class="why-grid">
+      <div data-aos="fade-up"><i class="fa-solid fa-bolt"></i><h3>Pro Performance.</h3><p>Logo in 24 hours. Website in 2 days. No waiting.</p></div>
+      <div data-aos="fade-up"><i class="fa-solid fa-eye"></i><h3>Pro Design.</h3><p>Clean. Minimal. Premium. Apple-level quality.</p></div>
+      <div data-aos="fade-up"><i class="fa-solid fa-language"></i><h3>Your Language.</h3><p>English, Tamil, Sinhala, Hindi. We speak you.</p></div>
     </div>
   </section>
 
-  <section id="order" class="order">
-    <h2>Place Your Order</h2>
-    <p>Fill this. JARVIS will confirm your order.</p>
+  <section id="order" class="order-apple">
+    <h2>Order. In 30 Seconds.</h2>
+    <p>Fill. Confirm. Done. JARVIS will handle the rest.</p>
     <input id="oName" placeholder="Your Name">
-    <input id="oPhone" placeholder="WhatsApp Number - Eg: 0771234567">
-    <select id="oService">
-      <option>Logo Design - Rs. 4,999</option>
-      <option>Website - Rs. 14,999</option>
-      <option>Instagram Pack - Rs. 2,999</option>
-      <option>Starter Pack - Rs. 9,999</option>
-    </select>
-    <input id="oDetail" placeholder="Your Business Name / Details">
-    <button class="btn-primary full" onclick="placeOrder()">Confirm Order via WhatsApp</button>
-    <p id="orderMsg" class="order-msg"></p>
+    <input id="oPhone" placeholder="WhatsApp Number - 0765207182">
+    <select id="oService"><option>Logo Design - Rs. 4,999</option><option>Website - Rs. 14,999</option><option>Instagram Pack - Rs. 2,999</option><option>Starter Pack - Rs. 9,999</option></select>
+    <input id="oDetail" placeholder="Your Business Name">
+    <button class="btn-blue full" onclick="placeOrder()">Confirm Order - WhatsApp ></button>
+    <p id="orderMsg"></p>
   </section>
 </main>
 
-<!-- JARVIS AGENT WIDGET -->
 <button class="jarvis-float" onclick="toggleJarvis()">JARVIS - ASK ME</button>
 <div id="jarvisBox" class="jarvis-box" style="display:none;">
   <div class="chat-head"><span>JARVIS - IZAX AGENT</span><span id="langLabel">English</span></div>
@@ -82,7 +65,8 @@
   <div class="input-row"><input id="input" placeholder="Type to JARVIS..." onkeydown="if(event.key==='Enter') send()"><button onclick="send()">SEND</button></div>
 </div>
 
-<footer>© 2026 IZAX - All Rights Reserved. Powered by JARVIS.</footer>
+<footer>Copyright © 2026 IZAX. All rights reserved. | Vavuniya, Sri Lanka | WhatsApp: 0765207182</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
