@@ -19,7 +19,7 @@ function placeOrder(){
   if(!n || !p){ document.getElementById('orderMsg').textContent='Please enter your Name and WhatsApp Number.'; return; }
   const msg=`Hello IZAX. I want to order.\nName: ${n}\nPhone: ${p}\nService: ${s}\nDetails: ${d}`;
   document.getElementById('orderMsg').textContent='Order noted. Opening WhatsApp to confirm...';
-  window.open('https://wa.me/94771234567?text='+encodeURIComponent(msg), '_blank');
+  window.open('https://wa.me/94765207182?text='+encodeURIComponent(msg), '_blank');
 }
 function addMsg(who,text){
   const d=document.createElement('div');
